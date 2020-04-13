@@ -9,6 +9,7 @@ h1 {
 }
 
 .container {
+	position: relative;
 	width: 1140px;
 	margin: 0 auto;
 
@@ -122,7 +123,7 @@ h2.title {
 
 .waiting {
   background-color: rgb(239, 239, 239);
-  height: 604px;
+  min-height: 604px;
   padding: 85px 0 75px 0;
 }
 
@@ -154,15 +155,14 @@ h2.title {
 }
 
 .waiting .waiting_wrapper {
+	display: flex;
+	justify-content: space-between;
 	margin-top: 45px;
 }
 
 .waiting .waiting_wrapper .waiting_item {
-	display: inline-block;
 	width: 339px;
-	margin: 0 15px;
 	text-align: center;
-	vertical-align: top;
 }
 
 .waiting .waiting_wrapper .waiting_item .waiting_img {
@@ -179,4 +179,42 @@ h2.title {
 
 }
 
+.optimization {
+	min-height: 550px;
+	padding: 102px 0 107px 0;
+}
 
+.optimization .optimization_header{
+	margin-left: 391px;
+  font-size: 30px;
+  font-family: "Roboto-Black";
+  color: rgb(41, 156, 189);
+  text-transform: uppercase;
+  font-weight: 400;
+
+}
+
+.optimization .optimization_text {
+	margin-top: 25px;
+	margin-left: 391px;
+  font-size: 17px;
+  font-family: "Roboto Light";
+  color: rgb(74, 74, 74);
+  line-height: 27px;
+	font-weight: 300;
+
+}
+
+.optimization .optimization_text span {
+	font-family: "Roboto-Bold";
+	font-weight: 700;
+
+}
+
+.optimization .optimization_img {
+  position: absolute;
+  left: -240px;
+  top: -54px;
+  z-index: -1;
+
+}
