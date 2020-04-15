@@ -78,7 +78,7 @@ h2.title {
 	font-weight: 700;
 }
 
-.promo .promo_btn {
+.promo .promo_btn, .record .record_btn {
 	display: block;
 	margin: 0 auto;
 	margin-top: 73px;
@@ -257,4 +257,78 @@ h2.title {
   font-family: "Roboto";
   color: rgb(239, 239, 239);
   line-height: 20px;
+}
+
+.record ,.firstWeb , footer {
+  background-color: rgb(239, 239, 239);
+  min-height: 300px;
+  padding: 82px 270px 63px 270px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.record .record_descr {
+	margin: 30px auto 0 auto;
+	min-height: 115px;
+  font-size: 21px;
+  font-weight: 300;
+  font-family: "Roboto";
+  line-height: 28px;
+  color: rgb(37, 37, 37);
+  text-align: center;
+}
+
+.record .record_btn {
+	margin-top: 0;
+}
+
+.firstWeb .firstWeb_wot {
+	margin-top: 30px;
+  font-size: 30px;
+  font-family: "Roboto";
+  color: rgb(37, 37, 37);
+  text-transform: uppercase;
+  line-height: 0.4;
+  text-align: center;
+
+}
+
+.firstWeb .firstWeb_time {
+	margin-top: 36px;
+  font-size: 36px;
+  font-family: "Roboto";
+  color: rgb(41, 156, 189);
+  text-transform: uppercase;
+  line-height: 0.333;
+  text-align: center;
+
+}
+
+.firstWeb .firstWeb_text {
+	margin-top: 30px;
+  font-size: 23px;
+  font-family: "Roboto";
+  color: rgb(74, 74, 74);
+  line-height: 0.87;
+  text-align: center;
+
+}
+
+footer {
+  background-color: rgb(26, 26, 26);
+  min-height: 166px;
+
+}
+
+footer .footer_link a ,footer .footer_tel ,footer .footer_link span {
+  font-size: 15px;
+  font-family: "Roboto";
+  color: rgb(136, 136, 136);
+  line-height: 1.4;
+  text-align: center;
+
+}
+
+footer .footer_link span {
+	padding: 0 7px 0 3px;
 }
